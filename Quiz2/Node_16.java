@@ -105,14 +105,17 @@ class doubleLinkedList{
         }
     }
 
-    public void print(){
-        if(!isEmpty()){
+    void print() {
+        if (!isEmpty()) {
             Node tmp = head;
-            while (tmp!=null){
-                System.out.println("|"+ tmp.pmb.noAntrian +"\t|"+ tmp.pmb.namaPembeli+"\t|" + tmp.pmb.noHp);
-                tmp=tmp.next;
+            while (tmp != null) {
+                System.out.println("Nomor Antrian : " + tmp.pmb.noAntrian);
+                System.out.println("Nama Customer : " + tmp.pmb.namaPembeli);
+                System.out.println("Nomor Hp : " + tmp.pmb.noHp);
+                tmp = tmp.next;
             }
-        }else{
+            System.out.println("\nTotal Antrian : " + size);
+        } else {
             System.out.println("Linked Lists kosong");
         }
     }
