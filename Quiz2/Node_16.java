@@ -182,6 +182,10 @@ public class Node_16 {
         int noAntrian, noPesanan, harga;
         String namaPembeli, namaPesanan;
         String noHp;
+        System.out.println("===========QUIZ 2 PRATIKUM ASD TI -1G============");
+        System.out.println("dibuat oleh: Kholid Maulidi");
+        System.out.println("NIM: 2141720139");
+        System.out.println("Absen: 16");
         for(;;){
             menu();
             System.out.print("Pilih (1-5): ");
